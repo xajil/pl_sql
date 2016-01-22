@@ -1,4 +1,5 @@
 -- Ejemplo simple de un DBMS_OUTPUT.PUT_LINE
+-- Líneas nuevas agregadas. Nuevo comentario de archivo.
 
 DECLARE
    lines dbms_output.chararr;
@@ -10,8 +11,10 @@ BEGIN
    dbms_output.put_line('Hello Reader!');
    dbms_output.put_line('Hope you have enjoyed the tutorials!');
    dbms_output.put_line('Have a great time exploring pl/sql!');
+   dbms_output.put_line('Linea 4 agregada!');
+   dbms_output.put_line('Linea 5 agregada!');
  
-   num_lines := 3;
+   num_lines := 5;
  
    dbms_output.get_lines(lines, num_lines);
  
