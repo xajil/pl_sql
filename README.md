@@ -1,3 +1,3 @@
 # pl_sql
-Ejercicios Pl
-Bienvenidos a está página.
+Ejercicios de sincronización con Oracle SqlDeveloper.
+
